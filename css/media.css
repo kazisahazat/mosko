@@ -1,0 +1,115 @@
+
+    
+    
+    
+/*============================================================
+                    Extra small devices 
+================================================================*/
+@media (max-width: 575.98px) {
+.main {
+	width: 100%;
+	position: none;
+	left: 0;
+	padding: 0;
+}
+.navads {
+	height: 100%;
+	width: 50px;
+	position: fixed;
+	z-index: 999;
+	top: 100px;
+	right: 0;
+	background-color: #be32be;
+	overflow-x: hidden;
+	display: none;
+}
+
+.manu a i {
+	display: none;
+}
+.manu ul li {
+    text-align: center;
+    padding-left: 0;
+}
+.main {
+	height: 100%;
+}    
+.navbar {
+	bottom: 0;
+}    
+.navbar {
+	display: none;
+}  
+.tabse{
+	width: 100%;
+}  
+    
+    
+    
+}
+
+/*=====================================================================
+                            Small devices 
+=======================================================================*/
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+/*========== Navbar part start ==========*/
+
+.navads {
+	display: none;
+}
+.main {
+	width: 100%;
+	position: none;
+	left: 0;
+	padding: 0;
+}
+.sidenav {
+    display: none;
+}
+.main {
+	height: 100%;
+}
+.tabse {
+    display: inline;
+}
+.navbar {
+	display: none;
+} 
+.tabse{
+	width: 100%;
+}
+
+    
+    
+    
+/*============================ Large devices 
+=========================================================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+.tabse {
+	display: none;
+}
+
+}
+
+
+/*============================ Extra Large devices 
+=========================================================================*/
+@media (min-width: 1200px) {
+.tabse {
+	display: none;
+}
+    
+    
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
